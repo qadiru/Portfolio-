@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdulkadir Ibrahim | Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <button id="menu-toggle">☰ Menu</button>
+    </div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="ab-textiles.html">AB Textiles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1>Welcome, I'm Abdulkadir Ibrahim</h1>
+      <p>📍 Based in Goron Dutse, Kano | Student @ Northwest University | CEO @ AB Textiles & Car Dealership</p>
+
+      <h2>About Me</h2>
+      <video width="100%" height="auto" controls>
+        <source src="abdulkadir-intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>🎬 Watching Movies</li>
+        <li>🎮 Playing Video Games</li>
+        <li>📚 Reading</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abdulkadir Ibrahim</p>
+  </footer>
+
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", function () {
+      const menu = document.getElementById("nav-menu");
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
