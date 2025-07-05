@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Abdulkadir Ibrahim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <button id="menu-toggle">☰ Menu</button>
+    </div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="ab-textiles.html">AB Textiles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="contact-container">
+      <h1>Contact Me</h1>
+      <p class="subtitle">You can reach me through any of the platforms below:</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:abdulkadiribrahim483@gmail.com">abdulkadiribrahim483@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+2348036846373">+234 803 684 6373</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/_ab_textiles" target="_blank">@_ab_textiles</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abdulkadir Ibrahim</p>
+  </footer>
+
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", function () {
+      const menu = document.getElementById("nav-menu");
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
